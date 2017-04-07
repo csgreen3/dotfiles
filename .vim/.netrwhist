@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/mnt/ssd/users/csgreen/BSP/XPedite7670_prj'
+let g:netrw_dirhist_2='/mnt/ssd/users/csgreen/XPedite7475/itl_corei7/vxWorks_debug_code'
+let g:netrw_dirhist_3='/mnt/Work/pub/users/csgreen/xpd5970/prj'
+let g:netrw_dirhist_4='/mnt/ssd/users/csgreen/vxWorks7/xpd7670/vip'
+let g:netrw_dirhist_5='/mnt/ssd/users/csgreen/vxWorks-7-490'
+let g:netrw_dirhist_6='/mnt/ssd/users/csgreen/vxWorks-7-490/vxworks-7/pkgs/os/board/ia/xes_itl_generic'
+let g:netrw_dirhist_7='/mnt/ssd/users/csgreen/XPedite7670/itl_corei7'

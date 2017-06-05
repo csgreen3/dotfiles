@@ -36,12 +36,13 @@ endfunction
 
 let s:toggle = 0
 
+
 function CoopComment()
     if s:toggle == 0
-        execute "normal \<Esc>O/* CSG CSG CSG */\<Esc>"
+        execute "normal \<Esc>O/*****************************************************************************/\n/*                        Welcome to Cooper's Code                           */\n/*****************************************************************************/\<Esc>"
         let s:toggle = 1
     else
-        execute "normal \<Esc>o/* CSG CSG CSG */\<Esc>"
+        execute "normal \<Esc>o/*****************************************************************************/\n/*                        Welcome to Cooper's Code                           */\n/*****************************************************************************/\<Esc>"
         let s:toggle = 0
     endif
 endfunction

@@ -22,8 +22,6 @@ set guifont=system\ 12
 
 set statusline=%-f%m\ %r\ %y%=BUFF=%n\ %l,%c
 
-" Phill's custom _vimrc Rev 2 -- first one was blown away :'(
-
 function ToggleComment()
 let s:save_y = @y
 normal 02"yyl
@@ -38,12 +36,12 @@ endfunction
 
 let s:toggle = 0
 
-function PhillComment()
+function CoopComment()
     if s:toggle == 0
-        execute "normal \<Esc>O/* PKB PKB PKB */\<Esc>"
+        execute "normal \<Esc>O/* CSG CSG CSG */\<Esc>"
         let s:toggle = 1
     else
-        execute "normal \<Esc>o/* PKB PKB PKB */\<Esc>"
+        execute "normal \<Esc>o/* CSG CSG CSG */\<Esc>"
         let s:toggle = 0
     endif
 endfunction
@@ -53,7 +51,7 @@ nnoremap <C-S-Tab> :bp!<Return>
 nnoremap <C-Z> <C-W><C-W>
 nnoremap <F9> :1new<Return><C-W>r
 nnoremap <F2> <Esc>:call ToggleComment()<Return>
-nnoremap <F3> <Esc>:call PhillComment()<Return>
+nnoremap <F3> <Esc>:call CoopComment()<Return>
 nnoremap <F4> <Esc>:cd %:h<Return>
 vmap // y/<C-R>"<CR>
 vmap <C-Z> <Esc><C-W><C-W>

@@ -1,6 +1,6 @@
 colorscheme evening
-set nowrap
-hi Search NONE
+"set nowrap
+"hi Search NONE
 set incsearch
 set number
 syntax enable
@@ -12,13 +12,13 @@ set hlsearch
 
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
-set expandtab
-set textwidth=80
+"set expandtab
+"set textwidth=80
 set tabstop=4
 set shiftwidth=4
 
 set enc=latin1
-set guifont=system\ 12
+set guifont=system\ 10
 
 set statusline=%-f%m\ %r\ %y%=BUFF=%n\ %l,%c
 

@@ -22,6 +22,9 @@ set guifont=system\ 10
 
 set statusline=%-f%m\ %r\ %y%=BUFF=%n\ %l,%c
 
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
+
 function ToggleComment()
 let s:save_y = @y
 normal 02"yyl
@@ -35,7 +38,6 @@ unlet s:save_y
 endfunction
 
 let s:toggle = 0
-
 
 function CoopComment()
     if s:toggle == 0

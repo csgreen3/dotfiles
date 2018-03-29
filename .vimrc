@@ -106,5 +106,3 @@ endfor
 " s:grid should now contain the string we want
 echo s:grid
 endfunction
-
-

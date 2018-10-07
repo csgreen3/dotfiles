@@ -1,6 +1,5 @@
-colorscheme evening
-"set nowrap
-"hi Search NONE
+colorscheme torte
+
 set incsearch
 set number
 syntax enable
@@ -12,10 +11,14 @@ set hlsearch
 
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
-"set expandtab
-"set textwidth=80
-set tabstop=4
-set shiftwidth=4
+set expandtab
+set tabstop=2
+set shiftwidth=2
+
+" Visualize tabs and newlines
+map <leader>l :set list!<CR>
+set list
+set listchars=tab:>-
 
 set enc=latin1
 set guifont=system\ 10
